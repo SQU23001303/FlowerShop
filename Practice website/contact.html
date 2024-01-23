@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home Page</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Contact</h1>
+
+        <h3>This page about contacting the flower shop</h3>
+    </header>
+
+    <main>
+        <p>This website will contain information about the company</p>
+
+
+        <section>
+            <p>Contact information:<br>
+                Phone number: 00000 000000<br>
+                Address: 32 Fower Road
+            </p>
+        </section>
+    </main>
+
+    <form>
+        <label for="name">Please enter your name</label>
+        <input type+"text" id="name" name="name" placeholder="Please enter your name">
+
+        <br>
+        <label for="email"> Please enter your email:</label>
+        <input type="email" id="email" name="email" placeholder="Please enter your email">
+
+        <br>
+        <label for="gender">Please enter your gender</label>
+        <select>
+            <option value="Male">Male</option>
+            <option value="Female">Male</option>
+            <option value="Other">Male</option>
+        </select>
+
+        <br>
+        <label for="contactMethod">Please select how you would want to be contacted</label>
+        
+        <input type="radio" id="phone" name="contactMethod" value="email">
+        <label for="phone">Phone</label>
+
+        <input type="radio" id="phone" name="contactMethod" value="email">
+        <label for="radio">Radio</label>
+
+        <input type="radio" id="phone" name="contactMethod" value="email">
+        <label for="vax">vax</label>
+
+        <br>
+        <button type="button" onclick="myFunction()">Submit</button>
+
+        <script>
+            function myFunction() {
+                alert("Data submitted");
+            }
+        </script>
+
+    </form>
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+
+</html>
